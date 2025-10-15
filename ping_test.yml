@@ -1,0 +1,9 @@
+# ping_test.yml
+---
+- name: Test de Conectividad a Servidores Demo
+  hosts: demo_servers
+  gather_facts: false
+
+  tasks:
+    - name: "Verificar conexión con ping"
+      ansible.builtin.ping:
