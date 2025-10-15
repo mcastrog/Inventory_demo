@@ -1,10 +1,1 @@
-# inventory.yml
----
-all:
-  children:
-    demo_servers:
-      hosts:
-        server1:
-          ansible_host: 192.168.124.229
-        server2:
-          ansible_host: 192.168.124.93
+
